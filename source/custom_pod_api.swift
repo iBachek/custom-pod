@@ -1,6 +1,8 @@
 import Foundation
 
-public struct API {
+public struct CustomPodAPI {
+    public init() { }
+
     public func printFirst() {
         print("printFirst")
     }
